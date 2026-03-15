@@ -1,0 +1,12 @@
+# Firebase credentials
+Flask/taller11marzo-f06eb-firebase-adminsdk-fbsvc-e080ed7d0b.json
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Other common ignores
+*.log
+.DS_Store
