@@ -21,7 +21,7 @@ Route::middleware(['jwt.auth'])->group(function () {
 });
 
 #Flujo de registro de una venta
-3. Flujo de Registro de una Venta
+
 El proceso de registro de una venta sigue una secuencia lógica para asegurar la integridad de los datos:
 
 Validación de Sesión: El Gateway verifica el token del usuario.
