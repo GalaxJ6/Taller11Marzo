@@ -8,7 +8,7 @@ CORS(app)
 
 # Inicializar Firebase
 try:
-    cred = credentials.Certificate('taller11marzo-f06eb-firebase-adminsdk-fbsvc-e080ed7d0b.json')
+    cred = credentials.Certificate('taller11marzo-f06eb-firebase-adminsdk-fbsvc-eaea4c2054.json')
     firebase_admin.initialize_app(cred)
     db = firestore.client()
     print("Firebase inicializado correctamente")
